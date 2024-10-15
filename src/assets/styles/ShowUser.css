@@ -1,0 +1,41 @@
+
+.btn {
+    border-radius: 50px;
+  }
+  .table img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+  }
+
+  #btn{
+    width: 15%;
+  
+  }
+  #input1{
+     width: 25%;
+     /* margin-left: 45%; */
+  }
+  #doneBtn{
+    width: 20%;
+  }
+  #cancelBtn{
+    width: 20%;
+  }
+#contain{
+  padding: 12px;
+}
+ 
+  @media screen and (max-width:600px){
+    #contain{
+      width: 100%  !important;
+
+    }
+  }
+  @media screen and(max-width:600px) {
+    .table-responsive{
+      height:100%  !important
+    }
+  }
+ 
+ 

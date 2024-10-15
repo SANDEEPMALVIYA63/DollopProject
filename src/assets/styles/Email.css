@@ -1,0 +1,78 @@
+/* .EmailModal{
+    position: absolute;
+    margin-bottom: 0;
+    margin-inline-end: 0;
+} */
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    /* border-bottom-color: #2196f3; */
+  } 
+.container {
+    display: flex;
+    gap: 20px;
+}
+.searchBox{
+    width: 100%;
+    margin-top: 5px;
+    /* border-radius: 5rem; */
+}
+
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.mainLoginInput{
+  height: 25px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(185, 73%, 3%);
+}
+
+.mainLoginInput::-moz-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+.mainLoginInput:-ms-input-placeholder  { 
+font-family: FontAwesome;
+font-weight: normal;
+overflow: visible;
+vertical-align: top;
+display: inline-block !important;
+padding-left: 5px;
+padding-top: 2px;
+color: hsl(9, 40%, 60%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
